@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { Sky } from "three/examples/jsm/objects/Sky.js";
 import { setupVerse } from "./setup-verse";
 
-function setupScene(ticks: ((value: number)=>void)[]) {
+function setupScene(ticks: ((value: number) => void)[]) {
   const renderer = new THREE.WebGLRenderer();
   //renderer.outputEncoding = THREE.sRGBEncoding;
   renderer.setSize(window.innerWidth, window.innerHeight);
@@ -67,7 +67,7 @@ function setupScene(ticks: ((value: number)=>void)[]) {
 }
 
 function main() {
-  const ticks: ((value: number)=>void)[] = [];
+  const ticks: ((value: number) => void)[] = [];
   const { scene, renderer, camera, ground } = setupScene(ticks);
 
   camera.position.set(0.0, 1.6, 0);

@@ -21,7 +21,7 @@ export const PRESET_AVATARS = [
   {
     thumbnailURL: avatarF0Png,
     avatarURL: avatarF0Vrm,
-  }
+  },
 ];
 const DEFAULT_AVATAR_URL =
   PRESET_AVATARS[Math.floor(Math.random() * PRESET_AVATARS.length)].avatarURL;
