@@ -4,6 +4,6 @@ export default defineConfig({
     // build:{
     //     outDir: 
     // }
-    base: "pyon",
+    base: "usagi",
     assetsInclude: ['**/*.fbx', '**/*.png', '**/*.vrm'],
 })
